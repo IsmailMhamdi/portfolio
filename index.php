@@ -17,6 +17,19 @@
   font-family: "Poppins",sans-serif;
 
 }
+.bb img{
+            border-radius: 50%;
+            animation: aim 5s linear infinite alternate;
+  
+}
+
+@keyframes aim {
+  0%   {border-radius: 50% 80% / 70% 10%;}
+  25%  {border-radius: 80% 50% / 70% 10%;}
+  50%  {border-radius: 50% 80% / 10% 70%;}
+  75%  {border-radius: 80% 50% / 10% 70%;}
+  100% {border-radius: 50%;}
+}
 
 .lang i:hover{
   color: rgb(8, 174, 174);
@@ -171,8 +184,8 @@ transition: scale 0.3s ease-in-out ;
                 <a href="https://www.linkedin.com/in/ismail-mhamdi-9a119a28b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/IsmailMhamdi" target="_blank"><i class="fa-brands text-dark-emphasis fa-github"></i></a>
         </article>
-        <div class="blur-load"  style="background-image:url('ismailsm.png');border-radius: 50%; ">
-        <img src="ismail.png" width="100%" alt="" loading="lazy" style="border-radius: 50%;" class=""></div>
+        <div class="blur-load bb"  style="background-image:url('ismailsm.png');border-radius: 50%; ">
+        <img src="ismail.png" width="100%" alt="" loading="lazy" class=""></div>
     </section>
     <section class="proj mx-auto" id="skills" >
       <h4 style="color: rgb(8, 174, 174);" class="fw-bold ms-xl-5">Skills</h4>
@@ -194,6 +207,24 @@ transition: scale 0.3s ease-in-out ;
                   <i class="fa-brands my-1 mx-3 text-danger fa-git-alt"></i>
                   <!-- <i class="fa-brands my-1 fw-bold text-warning" style="font-family: sans-serif;">UI</i> -->
                   <h4></h4>
+              </div>
+    </section>
+    <section class="proj mx-auto" id="skills" >
+      <h4 style="color: rgb(8, 174, 174);" class="fw-bold ms-xl-5">Certificates</h4>
+              
+                <div class="mb-2 mt-4 lang d-flex justify-content-evenly p-4 align-items-center flex-wrap">
+                  <div class="w-25 d-flex flex-column text-center">
+                    <a href="#" class="d-block"><img src="certificate.png" alt="" width="85%"></a>
+                    <p class="my-2 fw-bolder">LinkedIn Path</p>
+                  </div>
+                  <div class="w-25 d-flex flex-column text-center">
+                    <a href="#" class="d-block"><img src="certificate.png" alt="" width="85%"></a>
+                    <p class="my-2 fw-bolder">OFPPT</p>
+                  </div>
+                  <div class="w-25 d-flex flex-column text-center">
+                    <a href="#" class="d-block "><img src="certificate.png" alt="" width="85%"></a>
+                    <p class="my-2 fw-bolder">Scholarvox</p>
+                  </div>
               </div>
     </section>
     <section class="ana mx-auto" id="about">
