@@ -265,6 +265,7 @@ transition: scale 0.3s ease-in-out ;
           <div class="swiper-slide blur-load" style="background-image: linear-gradient(to right, white,#F8F8F8);"><img src="c5.jpg" alt="" width="100%" loading="lazy"></div>
           <div class="swiper-slide blur-load" style="background-image: linear-gradient(to right, white,#F8F8F8);"><img src="c6.jpg" alt="" width="100%" loading="lazy"></div>
           <div class="swiper-slide blur-load" style="background-image: linear-gradient(to right, white,#F8F8F8);"><img src="c7.jpg" alt="" width="100%" loading="lazy"></div>
+          <div class="swiper-slide blur-load" style="background-image: linear-gradient(to right, white,#F8F8F8);"><img src="c8.jpg" alt="" width="100%" loading="lazy"></div>
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
@@ -304,9 +305,9 @@ transition: scale 0.3s ease-in-out ;
               <i class="fa-brands mx-2 fa-bootstrap bg-white shadow p-3 text-danger-emphasis rounded-circle fs-2"></i>
               <i class="fa-brands fa-php bg-white shadow p-3 text-danger-emphasis rounded-circle fs-2 mt-3"></i>
             </div>
-            <div class="">
+            <!-- <div class="">
               <a href="https://istadriouch.000webhostapp.com/" class="text-decoration-none text-danger fs-4 fw-medium"><i class="fa-solid fa-link fa-beat me-3"></i> Live Demo</a>
-            </div>
+            </div> -->
           </div>
         </article>
     </section>
