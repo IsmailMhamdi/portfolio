@@ -208,7 +208,7 @@ transition: scale 0.3s ease-in-out ;
         <div class="form-check form-switch  d-flex justify-content-end pt-3 mt-2 me-3">
           <label class="form-check-label" for="mySwitch"><i class="fa-solid fa-moon me-5"></i></label>
           <input class="form-check-input" type="checkbox" id="mySwitch" onclick="dr()" name="darkmode" value="yes" checked>
-          <label class="form-check-label" for="mySwitch"><i class="fa-regular fa-sun text-primary" style="margin-left: 10px;"></i></label>
+          <label class="form-check-label" for="mySwitch"><i class="fa-regular fa-sun text-warning" style="margin-left: 10px;"></i></label>
         </div>
     </header>
     <section class="ana mx-auto">
@@ -249,6 +249,7 @@ transition: scale 0.3s ease-in-out ;
                   <i class="fa-brands my-1 mx-3 text-danger fa-laravel"></i>
                   <i class="fa-brands my-1 text-primary fa-python"></i>
                   <i class="fa-brands my-1 mx-3 text-danger fa-git-alt"></i>
+                  <i class="my-1"><img src="scrum.png" class="d-block" width="39px"></i>
                   <!-- <i class="fa-brands my-1 fw-bold text-warning" style="font-family: sans-serif;">UI</i> -->
                   <h4></h4>
               </div>
