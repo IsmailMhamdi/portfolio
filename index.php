@@ -391,12 +391,12 @@ transition: scale 0.3s ease-in-out ;
                   <li class="nav-item">
                     <a class="nav-link text-primary fw-bold p-3" id="nava" href="#about">About</a>
                   </li>
-                   <li class="nav-item">
+                   <!-- <li class="nav-item">
                     <a class="nav-link text-primary fw-bold p-3" id="nava" href="#skills">Skills</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-primary fw-bold p-3" id="nava" href="#certificates">Certificates</a>
-                  </li>
+                  </li> -->
                   <li class="nav-item">
                     <a class="nav-link text-primary fw-bold p-3" id="nava" href="#projects">Projects</a>
                   </li>
@@ -455,7 +455,7 @@ transition: scale 0.3s ease-in-out ;
         </article>
     </main>
     <main class="proj mx-auto" id="skills" >
-      <h4 style="color: rgb(8, 174, 174);" class="fw-bold">Skills</h4>
+      <h4 style="color: rgb(8, 174, 174);" class="fw-bold text-center mb-4">Skills</h4>
               
                 <div class="mb-2 mt-4 lang d-flex justify-content-center align-items-center flex-wrap">
                   <i class="fa-brands my-1 text-danger fa-html5"></i>
@@ -478,8 +478,8 @@ transition: scale 0.3s ease-in-out ;
               </div>
     </main>
     <main class="proj mx-auto" id="certificates" >
-      <h4 style="color: rgb(8, 174, 174);" class="fw-bold">Certificates</h4>
-      <h2 class="mb-5 mt-3 fs-4" >Learn continually - there's always "one more thing" to learn! <i class="fa-solid fa-quote-right text-primary ms-2"></i></h2>
+      <h4 style="color: rgb(8, 174, 174);" class="fw-bold text-center mb-4">Certificates</h4>
+      <h2 class="mb-2 mt-3 fs-4 text-center" >Learn continually - there's always "one more thing" to learn! <i class="fa-solid fa-quote-right text-primary ms-2"></i></h2>
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide blur-load" style="background-image: linear-gradient(to right, white,#F8F8F8);"><img src="c1.jpg" alt="" width="100%" loading="lazy"></div>
@@ -496,6 +496,32 @@ transition: scale 0.3s ease-in-out ;
         <div class="swiper-pagination"></div>
       </div>
     </main>
+    <main class="proj mx-auto" id="services" >
+      <h4 style="color: rgb(8, 174, 174);" class="fw-bold text-center mb-4">Services</h4>
+      <div class="row justify-content-center align-items-start ">
+        <div class="col-xl-5 d-flex flex-column text-center my-2 p-4 mx-4 rounded-4 artp">
+          <i class="fa-solid fa-code my-3 fs-2 text-primary"></i>
+          <h4 class="fw-bold text-primary mb-3">Web Development</h4>
+          <p>Embark on your digital journey with our comprehensive website development solutions. Whether you seek a tailored website developed from scratch with meticulous coding expertise or a robust, user-friendly platform powered by WordPress, we deliver the perfect online presence to match your vision.</p> 
+        </div>
+        <div class="col-xl-5 d-flex flex-column text-center p-4 mx-4 my-2 rounded-4 artp">
+          <i class="fa-solid fa-wand-magic-sparkles text-danger fs-2 my-3 text-center"></i>
+          <h4 class="fw-bold text-danger mb-3">Graphic Design</h4>
+          <p>Unlock the power of visual storytelling with our suite of creative design services. From crafting distinctive logos that embody your brand's essence to captivating graphic designs , and slide presentations that narrate your story seamlessly – we're here to transform your ideas into visually compelling realities.</p>
+        </div>
+        <div class="col-xl-5 d-flex flex-column text-center my-2 p-4 mx-4 rounded-4 h-auto artp">
+          <i class="fa-brands fa-figma my-3 fs-2 text-success"></i>
+          <h4 class="fw-bold text-success mb-3">Web Design</h4>
+          <p>Elevate your online presence with our cutting-edge web design services powered by Figma. Our team utilizes the collaborative power and innovative features of Figma to craft captivating and functional designs that transcend boundaries.</p> 
+        </div>
+        <div class="col-xl-5 d-flex flex-column text-center my-2 p-4 mx-4 rounded-4 artp">
+          <img src="scrum.png" width="40px" class="my-2">
+          <h4 class="fw-bold text-info mb-3">Project Management</h4>
+          <p>Unlock efficient and dynamic project execution with our Scrum-based Project Management services. Embracing the agile principles of Scrum, we drive projects to success by fostering collaboration, adaptability, and iterative development.</p> 
+        </div>
+        
+      </div>
+  </main>
   </section>
     <section class="mx-auto proj" id="projects">
       <h4 style="color: rgb(8, 174, 174);" class="fw-bold">Projects</h4>
